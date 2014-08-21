@@ -1,0 +1,17 @@
+{
+  "name": "emp-channel-tree",
+  "main": "./lib/emp-channel-tree",
+  "version": "0.0.0",
+  "description": "A virtual tree view package for EMP channel~",
+  "activationEvents": ["emp-channel-tree:toggle"],
+  "repository": "https://github.com/atom/emp-channel-tree",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "fs-plus": "^2.0.4",
+    "theorist": "1.x",
+    "underscore-plus": "1.x",
+  }
+}
